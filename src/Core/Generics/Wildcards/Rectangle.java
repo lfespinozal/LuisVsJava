@@ -1,4 +1,4 @@
-package Generics.Wildcards;
+package Core.Generics.Wildcards;
 
 public class Rectangle implements Shape {
 

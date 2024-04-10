@@ -1,4 +1,4 @@
-package Generics;
+package Core.Generics;
 
 public class Hashtable<K,V> {
 

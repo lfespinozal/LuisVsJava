@@ -1,4 +1,4 @@
-package Generics.Wildcards;
+package Core.Generics.Wildcards;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -57,9 +57,9 @@ public class Wildcard {
         System.out.println("--------> Upper bounded wildcards <--------");
 
 
-        List<? extends Number> l1 = new ArrayList<Integer>();
-        List<? extends Number> l2 = new ArrayList<Double>();
-        List<? extends Number> l3 = new ArrayList<Float>();
+        //List<? extends Number> l1 = new ArrayList<Integer>();
+        //List<? extends Number> l2 = new ArrayList<Double>();
+        //List<? extends Number> l3 = new ArrayList<Float>();
         
         showAll(Arrays.asList(1,2,3,4,5));
 
@@ -67,9 +67,9 @@ public class Wildcard {
 
         System.out.println("--------> Lower bounded wildcards <--------");
         
-        List<? super Integer> l11 = new ArrayList<Integer>();
-        List<? super Integer> l22 = new ArrayList<Number>();
-        List<? super Integer> l33= new ArrayList<Object>();
+        //List<? super Integer> l11 = new ArrayList<Integer>();
+        //List<? super Integer> l22 = new ArrayList<Number>();
+        //List<? super Integer> l33= new ArrayList<Object>();
 
         System.out.println("--------> Read items from lower bounded wildcards <--------");
 

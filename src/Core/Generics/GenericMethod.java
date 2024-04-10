@@ -1,4 +1,4 @@
-package Generics;
+package Core.Generics;
 
 public class GenericMethod {
 
@@ -31,6 +31,7 @@ public class GenericMethod {
         return r;
     }
 
+    @SuppressWarnings("rawtypes")
     public <T extends Comparable> int countGreaterItems(T[] items, T item) {
 
         int n = 0;
